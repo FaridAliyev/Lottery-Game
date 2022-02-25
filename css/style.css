@@ -26,6 +26,10 @@ main #form h1 {
   font-size: 26px;
 }
 
+main #form label {
+  white-space: nowrap;
+}
+
 main #draw h1 {
   text-align: center;
   font-size: 26px;
