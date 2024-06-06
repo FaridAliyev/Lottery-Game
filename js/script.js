@@ -52,7 +52,7 @@ $(document).ready(function () {
     }
 
     $('#draw-btn').click(function () {
-        let random = getRandomInt(arr.length - 1);
+        let random = getRandomInt(arr.length);
         let number = arr[random];
         arr.splice(random, 1);
         $('.new-num').fadeOut();
